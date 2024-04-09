@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0cf8914c7a3a4cb4886e359979ffc33e" Name="Diagram1" ZoomLevel="48">
+        <EntityTypeShape EntityType="MusicalInstrumentStoreModel.Categories" Width="1.5" PointX="3" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicalInstrumentStoreModel.Checks" Width="1.5" PointX="7.5" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicalInstrumentStoreModel.Clients" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicalInstrumentStoreModel.Makers" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicalInstrumentStoreModel.Orders" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicalInstrumentStoreModel.Pickup_Points" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicalInstrumentStoreModel.Positions" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicalInstrumentStoreModel.Products" Width="1.5" PointX="5.25" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicalInstrumentStoreModel.Providers" Width="1.5" PointX="3" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicalInstrumentStoreModel.Staff" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicalInstrumentStoreModel.Staff_Choice" Width="1.5" PointX="8.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicalInstrumentStoreModel.Users" Width="1.5" PointX="5.25" PointY="12.25" IsExpanded="true" />
+        <AssociationConnector Association="MusicalInstrumentStoreModel.FK__Products__Catego__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalInstrumentStoreModel.FK__Checks__Order_ID__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalInstrumentStoreModel.FK__Checks__Product___5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalInstrumentStoreModel.FK__Clients__Maker_I__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalInstrumentStoreModel.FK__Orders__Client_I__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalInstrumentStoreModel.FK__Staff_Cho__Clien__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalInstrumentStoreModel.FK__Products__Maker___4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalInstrumentStoreModel.FK__Orders__Order_Em__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalInstrumentStoreModel.FK__Orders__Point_ID__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalInstrumentStoreModel.FK__Staff__Position___398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalInstrumentStoreModel.FK__Products__Provid__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalInstrumentStoreModel.FK__Staff_Cho__Emplo__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalInstrumentStoreModel.FK__Users__User_Empl__4AB81AF0" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
