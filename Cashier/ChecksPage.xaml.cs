@@ -57,12 +57,6 @@ namespace Educ5Ver2.Cashier
                 string goods = "";
                 foreach (Products product in products)
                 {
-                    Checks check = new Checks();
-                    check.Product_ID = product.ID_Product;
-                    check.Order_ID = order.ID_Order;
-                    context.Checks.Add(check);
-                    context.SaveChanges();
-
                     goods += "\n\t" + product.Product_Name + "\t-\t" + product.Price;
 
                 }
